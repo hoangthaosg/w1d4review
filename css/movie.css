@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.png');
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+}
+
+.banner {
+    background: url('../images/bannerbg.png');
+}
+
+.banner div {
+    width: 800px;
+    margin: auto;
+}
+
+.movie_name {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 250px;
+    border: solid 4px gray;
+    width: 800px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.column {
+    padding: 0;
+}
+
+.rating {
+    background: url('../images/rbg.png') repeat-x;
+    border-top-left-radius: 17px;
+    height: 83px;
+}
+
+.rating > span {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rating > img {
+    border-radius: 20px;
+}
+
+.container-comment {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.column-comment {
+    margin: 10px;
+}
+
+.comment {
+    background-color: #E8DC9B;
+    border-radius: 10px;
+    border: 2px thick gray;
+    padding: 8px;
+}
+
+.reviewer {
+    display: table;
+    margin-bottom: 20pt;
+}
+
+.reviewer > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.reviewer > span > span {
+    font-style: italic;
+}
+
+.comment img {
+    float: left;
+    margin-right: 5px;
+}
+
+.general {
+    background-color: #A2B964;
+    border-top-right-radius: 17px;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+
+.general > div > img {
+    border-top-right-radius: 17px;
+}
+
+dl {
+    margin: 15pt;
+    line-height: 120%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 10pt;
+}
+
+dd > ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.paging {
+    padding: 5px;
+    text-align: center;
+    background-color: #A2B964;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    grid-column: 1 / span 2;
+}
+
+.validator {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    opacity: 50%;
+}
+
